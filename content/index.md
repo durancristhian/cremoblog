@@ -3,7 +3,7 @@
 ---
 # An h1 header 
 
-HOLA MUNDO
+HOLA MUNDO :)
 
 Paragraphs are separated by a blank line.
 
