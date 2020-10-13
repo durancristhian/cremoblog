@@ -9,17 +9,19 @@ export function Layout({ children }: Props) {
   return (
     <>
       <header>
-        <div>
+        <div className="responsive-margin responsive-padding">
           <Link href="/" passHref>
-            <a href="#!">cremoblog</a>
+            <a href="#!" className="logo">
+              cremoblog
+            </a>
           </Link>
         </div>
       </header>
       <main>
-        <div>{children}</div>
+        <div className="responsive-margin responsive-padding">{children}</div>
       </main>
       <footer>
-        <div>
+        <div className="responsive-margin responsive-padding">
           <p>
             <span>Created by </span>
             <a
