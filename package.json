@@ -1,5 +1,5 @@
 {
-  "name": "nextjs-starter",
+  "name": "cremoblog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -43,7 +43,6 @@
     "prettier": "^2.1.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "tailwindcss": "^1.8.13",
     "typescript": "^4.0.3"
   }
 }

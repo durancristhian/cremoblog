@@ -26,7 +26,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <>
       <Head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <title>nextjs-starter v{pkg.version}</title>
+        <title>cremoblog v{pkg.version}</title>
         <meta name="title" content="" />
         <meta name="description" content="" />
         <meta property="og:title" content="" />

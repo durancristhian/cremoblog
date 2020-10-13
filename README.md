@@ -1,4 +1,4 @@
-# nextjs-starter
+# cremoblog
 
 ## Getting Started
 
@@ -17,6 +17,6 @@
 
 - Basic structure of a next.js project with a minimal layout.
 - Pre-configured (and opinionated) eslint, TypeScript and Prettier.
-- Integration with TailwindCSS and autoprefixer.
+- Integration with autoprefixer.
 - Pre-commit hook using Husky and lint-staged.
 - Google Analytics integration if `NEXT_PUBLIC_GA_TRACKING_ID` env var is present.
