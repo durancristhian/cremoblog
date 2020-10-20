@@ -1,6 +1,8 @@
 ---
-slug: '/blog/article-1'
-title: 'Article 1'
----
+slug: "/blog/article-hola-mundo"
+title: Hola mundo
 
+---
 # Article 1
+
+Edited from Forestry.io
