@@ -15,3 +15,4 @@ fields:
   label: Slug
 pages:
 - content/posts/article 1.md
+- content/posts/article 2.md
