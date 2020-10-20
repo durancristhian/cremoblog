@@ -19,13 +19,17 @@ export default function Blog({ posts }: Props) {
     <div className="row">
       {posts.map((post) => (
         <div className="col-sm-12" key={post.metadata.slug}>
-          <div className="card fluid">
-            <h2>
-              <Link href={post.metadata.slug} passHref>
+          <Link href={post.metadata.slug} passHref>
+            <div className="card fluid">
+              <h2>
                 <a href="#!">{post.metadata.title}</a>
-              </Link>
-            </h2>
-          </div>
+                <div>
+                  <img src={post.metadata.cover} alt={post.metadata.title} />
+                </div>
+                <p>{post.metadata.date}</p>
+              </h2>
+            </div>
+          </Link>
         </div>
       ))}
     </div>
@@ -36,15 +40,21 @@ export async function getStaticProps() {
   const postsPath = path.join(process.cwd(), 'content', 'posts', '*.md')
   const paths = glob.sync(postsPath)
 
-  const posts = paths.map((path) => {
-    const fileContent = fs.readFileSync(path, 'utf8')
-    const { content, data } = matter(fileContent)
+  const posts = paths
+    .map((path) => {
+      const fileContent = fs.readFileSync(path, 'utf8')
+      const { content, data } = matter(fileContent)
 
-    return {
-      content,
-      metadata: data,
-    }
-  })
+      if (data.published) {
+        return {
+          content,
+          metadata: data,
+        }
+      }
+
+      return false
+    })
+    .filter(Boolean)
 
   return {
     props: {
