@@ -15,6 +15,11 @@ export function Layout({ children }: Props) {
               cremoblog
             </a>
           </Link>
+          <Link href="/blog" passHref>
+            <a href="/blog" className="button">
+              Blog
+            </a>
+          </Link>
         </div>
       </header>
       <main>
