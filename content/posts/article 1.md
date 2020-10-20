@@ -1,7 +1,7 @@
 ---
 slug: "/blog/article-hola-mundo"
 title: Hola mundo
-cover: "/uploads/wallpaper.jpg"
+cover: "/public/uploads/me.jpg"
 date: 10/10/2020
 published: true
 
