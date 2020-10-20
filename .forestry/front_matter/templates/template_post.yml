@@ -1,4 +1,15 @@
 ---
 label: TEMPLATE_POST
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  hidden: false
+- name: slug
+  type: text
+  config:
+    required: true
+  label: Slug
