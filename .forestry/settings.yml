@@ -7,7 +7,6 @@ sections:
 - type: document
   path: content/menu.json
   label: Menu
-  match: "**/*"
 - type: directory
   path: content
   label: Home page
