@@ -1,4 +1,25 @@
 ---
 label: TEMPLATE_MENU
 hide_body: true
-fields: []
+fields:
+- name: menu_item
+  type: field_group_list
+  fields:
+  - name: label
+    type: text
+    config:
+      required: true
+    label: Label
+  - name: visible
+    type: boolean
+    label: Visible
+  - name: path
+    type: text
+    config:
+      required: true
+    label: path
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Menu item
