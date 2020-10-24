@@ -1,5 +1,14 @@
 import Link from 'next/link'
 import React, { ReactNode } from 'react'
+import menu from '../content/menu.json'
+
+type MenuItem = {
+  label: string
+  visible: boolean
+  path: string
+}
+
+const { menu_item }: { menu_item: MenuItem[] } = menu
 
 type Props = {
   children: ReactNode
@@ -15,11 +24,15 @@ export function Layout({ children }: Props) {
               cremoblog
             </a>
           </Link>
-          <Link href="/blog" passHref>
-            <a href="/blog" className="button">
-              Blog
-            </a>
-          </Link>
+          {menu_item
+            .filter((item) => item.visible)
+            .map((item) => (
+              <Link key={item.path} href={item.path} passHref>
+                <a href="#!" className="button">
+                  {item.label}
+                </a>
+              </Link>
+            ))}
         </div>
       </header>
       <main>
