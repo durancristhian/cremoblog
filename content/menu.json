@@ -7,7 +7,7 @@
     },
     {
       "label": "Talks",
-      "visible": true,
+      "visible": false,
       "path": "/talks"
     }
   ]
