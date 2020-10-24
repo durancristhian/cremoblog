@@ -27,7 +27,7 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Head>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <title>cremoblog v{pkg.version}</title>
-        <meta name="title" content="" />
+        {/* <meta name="title" content="" />
         <meta name="description" content="" />
         <meta property="og:title" content="" />
         <meta property="og:description" content="" />
@@ -38,7 +38,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta property="twitter:title" content="" />
         <meta property="twitter:description" content="" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:image" content="" />
+        <meta property="twitter:image" content="" /> */}
         <meta
           name="viewport"
           content="width=device-width,initial-scale=1,maximum-scale=1"
