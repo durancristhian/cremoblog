@@ -1,0 +1,9 @@
+{
+  "menu_item": [
+    {
+      "label": "Blog",
+      "visible": true,
+      "path": "/blog"
+    }
+  ]
+}
