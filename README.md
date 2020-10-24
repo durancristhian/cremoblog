@@ -25,4 +25,13 @@ La idea es usar Markdown para escribir el contenido en un sitio hecho con [Next.
     - [Episodio #1](https://github.com/durancristhian/cremoblog/commit/c91b2167c7a717a662f1ca3dcf3952ed8e2fe99a)
 - [Deploy](https://cremoblog-gwnv02lc5.vercel.app/)
 
-[![Episodio 1](https://img.youtube.com/vi/oUXMdoEFw5g/0.jpg)](https://www.youtube.com/watch?v=oUXMdoEFw5g)
+## Episodio 2, Martes 20/10/2020
+
+- Listamos los artículos para la página /blog
+- Creamos templates y mejoramos la estructura del contenido en Forestry
+- Commits:
+    - [Episodio #2 - Articulos](https://github.com/durancristhian/cremoblog/commit/a2b48c722151306f0f987d268d1b4ef2cb43fa2a)
+    - [Episodio #2 - Metadata](https://github.com/durancristhian/cremoblog/commit/9d74373b0b61bc678011acdc973222a9ad1c8a38)
+- [Deploy](https://cremoblog-5im6vh7zs.vercel.app/)
+
+[![Episodio 2](https://img.youtube.com/vi/c3YRVGesQow/0.jpg)](https://www.youtube.com/watch?v=c3YRVGesQow)
