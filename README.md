@@ -25,6 +25,8 @@ La idea es usar Markdown para escribir el contenido en un sitio hecho con [Next.
     - [Episodio #1](https://github.com/durancristhian/cremoblog/commit/c91b2167c7a717a662f1ca3dcf3952ed8e2fe99a)
 - [Deploy](https://cremoblog-gwnv02lc5.vercel.app/)
 
+[![Episodio 1](https://img.youtube.com/vi/oUXMdoEFw5g/0.jpg)](https://www.youtube.com/watch?v=oUXMdoEFw5g)
+
 ## Episodio 2, Martes 20/10/2020
 
 - Listamos los artículos para la página /blog
@@ -35,3 +37,14 @@ La idea es usar Markdown para escribir el contenido en un sitio hecho con [Next.
 - [Deploy](https://cremoblog-5im6vh7zs.vercel.app/)
 
 [![Episodio 2](https://img.youtube.com/vi/c3YRVGesQow/0.jpg)](https://www.youtube.com/watch?v=c3YRVGesQow)
+
+## Episodio 3, Sábado 25/10/2020
+
+- Renderizamos los artículos del blog
+- Creamos el menu desde un archivo json gestionado con Forestry usando un template custom
+- Commits:
+    - [Episodio #3 - Artículos](https://github.com/durancristhian/cremoblog/commit/2e5ab3876f05391d44cc5dfcfa1c35bd4e1da8da)
+    - [Episodio #3 - Menú](https://github.com/durancristhian/cremoblog/commit/e69c467f9cc38cbd309089f8cd74360da67453b4)
+- [Deploy](https://cremoblog-a2ovbji42.vercel.app/)
+
+[![Episodio 3](https://img.youtube.com/vi/M1XN4WJ3McU/0.jpg)](https://www.youtube.com/watch?v=M1XN4WJ3McU)
